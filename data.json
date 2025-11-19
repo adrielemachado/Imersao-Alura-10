@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Javascript",
+        "ano": 1995,
+        "criador": "Brendan Eich",
+        "descrição": "JavaScript é uma linguagem de programação interpretada de alto nível com tipagem dinâmica fraca e multiparadigma.",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "nome": "Python",
+        "ano": 1991,
+        "criador": "Guido van Rossum",
+        "descrição":"Python é uma linguagem de programação de alto nível,interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.",
+        "link": "https://www.python.org/"
+    },
+    {
+        "nome": "Java",
+        "ano": 1995,
+        "criador": "James Gosling (Sun Microsystems)",
+        "descrição": "Java é uma linguagem de programação orientada a objetos, rápida, segura e confiável para codificar tudo, desde aplicativos móveis e software empresarial até aplicativos de big data e tecnologias do lado do servidor. [5, 20]",
+        "link": "https://www.java.com/"
+    },
+    {
+        "nome": "C#",
+        "ano": 2000,
+        "criador": "Anders Hejlsberg (Microsoft)",
+        "descrição": "C# (pronuncia-se C-sharp) é uma linguagem de programação moderna, orientada a objetos e de tipo seguro, usada para desenvolver uma variedade de aplicações seguras e robustas que são executadas no .NET. [7, 19, 29]",
+        "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+    },
+    {
+        "nome": "PHP",
+        "ano": 1994,
+        "criador": "Rasmus Lerdorf",
+        "descrição": "PHP é uma linguagem de script do lado do servidor de código aberto que pode ser usada para criar sites e aplicativos da web. [18, 32]",
+        "link": "https://www.php.net/"
+    },
+    {
+        "nome": "Ruby",
+        "ano": 1995,
+        "criador": "Yukihiro Matsumoto",
+        "descrição": "Ruby é uma linguagem de programação dinâmica e de código aberto com foco na simplicidade e na produtividade. [3, 4] Sua sintaxe elegante é natural para ler e fácil de escrever. [3]",
+        "link": "https://www.ruby-lang.org/"
+    }
+]

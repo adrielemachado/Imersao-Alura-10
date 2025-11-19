@@ -111,6 +111,23 @@ article {
     padding-bottom: 1.5rem; /* Espaçamento interno inferior */
 }
 
+.iconeTexto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconeTexto img {
+    height: 2.5rem; /* Define uma altura fixa para a imagem */
+    width: auto; /* A largura se ajusta automaticamente para manter a proporção */
+    margin-right: 1rem; /* Adiciona um espaço entre a imagem e o título */
+}
+
+/* Ajuste específico para o logo do Python (SVG) */
+.python-logo {
+    height: 3.5rem; /* Aumenta a altura para compensar o espaço interno do SVG */
+}
+
 article:hover {
     transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
     cursor: pointer; /* Muda o cursor para uma mão */
@@ -149,6 +166,7 @@ article a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
+
 .footer {
     position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
     bottom: 0; /* Alinha na parte inferior */
@@ -185,6 +203,8 @@ article a:hover {
 }
 
 @media (max-width: 768px) {
+
+ 
     header { /* Estilos para telas com largura máxima de 768px */
         flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
         padding: 1rem; /* Reduz o espaçamento interno */
@@ -223,6 +243,16 @@ article a:hover {
 
     article h2 { /* Estilos para o h2 do article em telas muito pequenas */
         font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    .iconeTexto img {
+        height: 2rem; /* Reduz a altura da imagem em telas menores */
+        margin-right: 0.5rem; /* Reduz o espaço entre a imagem e o título */
+    }
+
+    /* Ajuste do logo Python para telas menores */
+    .python-logo {
+        height: 2.8rem;
     }
 
     div { /* Estilos para a div do cabeçalho em telas muito pequenas */

@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Base de Conhecimento - Imersão Alura Dev</title>
 </head>
+
 <body>
     <!-- estrutura da base de conhecimento -->
-     <header>
+    <header>
         <h1>Base de Conhecimento</h1>
 
         <div class="search">
             <input type="text" placeholder="Pesquise uma linguagem de programação">
-            <button id="botao-busca" onclick="iniciarBusca()">Pesquisar</button> 
+            <button id="botao-busca" onclick="iniciarBusca()">Pesquisar</button>
         </div>
 
-     </header>
+    </header>
 
-     <main>
-        <section class="linguagem">
+    <main>
+        <section class="cardContainer">
             <!-- Exemplo de como o artigo deve ser estruturado -->
-            <article>
+            <article class="card">
+
                 <h2>JavaScript</h2>
+
+                <hr>
+                <p>1995</p>
                 <p>
                     <strong>Criador:</strong> Brendan Eich<br>
-                    JavaScript é uma linguagem de programação interpretada de alto nível com tipagem dinâmica fraca e multiparadigma.
+                    JavaScript é uma linguagem de programação interpretada de alto nível com tipagem dinâmica fraca e
+                    multiparadigma.
                 </p>
-                <a href="#">Saiba mais</a>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Saiba mais</a>
+            </article>
+
+            <article class="card">
+
+                <h2>Python</h2>
+                <hr>
+                <p>1991</p>
+                <p>
+                    <strong>Criador:</strong> Guido van Rossum<br>
+                    Python é uma linguagem de programação de alto nível,interpretada de script, imperativa, orientada a
+                    objetos, funcional, de tipagem dinâmica e forte.
+                </p>
+                <a href="https://www.python.org/">Saiba mais</a>
             </article>
         </section>
-     </main>
+    </main>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="footer-location">
             <p>Base de Conhecimento - Criado por Adriele Machado. 2025</p>
         </div>
-        <div >
+        <div>
             <ul class="footer-links">
                 <li><a href="#">Linkedin</a></li>
                 <li><a href="#">Github</a></li>
             </ul>
         </div>
-     </footer>
+    </footer>
 
+    <script src="/dist/main.js"></script>
 </body>
+
 </html>
