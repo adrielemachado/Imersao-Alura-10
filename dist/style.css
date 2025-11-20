@@ -37,9 +37,16 @@ header {
 header h1 {
     font-size: 1.5rem; /* Tamanho da fonte */
     margin: 0; /* Remove a margem padrão */
-    font-weight: 500; /* Peso da fonte (médio) */
+    font-weight: 800; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
 }
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color) ;
+}
+
+
 
 div input {
     padding: 0.375rem 0.75rem; /* Espaçamento interno */
@@ -55,6 +62,7 @@ div input {
 }
 
 div input::placeholder {
+    display: flex;
     font-size: 1.2rem; /* Tamanho da fonte do placeholder */
     font-weight: 300; /* Peso da fonte do placeholder */
     color: var(--tertiary-color); /* Cor do texto do placeholder */
